@@ -10,5 +10,6 @@ WORKDIR /tmp
 COPY src/ /tmp
 
 RUN /bin/bash install_clang.bash
+RUN /bin/bash install_cmake.bash
 
 CMD ["/bin/bash"]
