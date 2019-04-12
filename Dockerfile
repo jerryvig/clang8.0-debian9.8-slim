@@ -19,5 +19,6 @@ RUN apt install -y gettext
 RUN apt install -y git
 
 RUN /bin/bash install_git.bash
+RUN /bin/bash install_sds.bash
 
 CMD ["/bin/bash"]
