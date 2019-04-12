@@ -12,4 +12,12 @@ COPY src/ /tmp
 RUN /bin/bash install_clang.bash
 RUN /bin/bash install_cmake.bash
 
+RUN apt install -y make
+RUN apt install -y zlib1g-dev
+RUN apt install -y autoconf
+RUN apt install -y gettext
+RUN apt install -y git
+
+RUN /bin/bash install_git.bash
+
 CMD ["/bin/bash"]
