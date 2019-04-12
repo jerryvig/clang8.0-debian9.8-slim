@@ -9,6 +9,7 @@ cd sds-2.0.0
 /usr/bin/clang -shared -o libsds.so sds.o
 cp libsds.so /usr/local/lib
 cp sds.h /usr/local/include/
+/sbin/ldconfig
 cd /tmp
 rm -rf sds-2.0.0
 rm -f 2.0.0.tar.gz
