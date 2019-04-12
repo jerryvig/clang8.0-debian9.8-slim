@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Download the latest git source xz tarball from kernel.org
+# Download the latest sds source tarball from github.
 cd /tmp
 /usr/bin/wget https://github.com/antirez/sds/archive/2.0.0.tar.gz
 /bin/tar xzvf 2.0.0.tar.gz
