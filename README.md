@@ -10,3 +10,4 @@
 * Valgrind 3.14.0
 * uWSGI 2.0.18
 * FastCGI (fcgi2) 2.4.2
+* lighttpd (Lighty) 1.4.53
