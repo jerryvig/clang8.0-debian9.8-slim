@@ -9,6 +9,7 @@
 * brotli 1.0.7
 * nghttp2 1.37.0
 * cURL/libcurl 7.64.1
+* libuv 1.28.0
 * Valgrind 3.15.0
 * uWSGI 2.0.18
 * FastCGI (fcgi2) 2.4.2
