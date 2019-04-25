@@ -5,9 +5,9 @@
 * Ninja 1.9.0
 * GNU Make 4.2.1
 * git 2.21.0
-* sqlite 3.27.2
+* sqlite 3.28.0
 * brotli 1.0.7
-* nghttp2 1.37.0
+* nghttp2 1.38.0
 * cURL/libcurl 7.64.1
 * libuv 1.28.0
 * Valgrind 3.15.0
